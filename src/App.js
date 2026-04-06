@@ -209,6 +209,19 @@ function CPCard({ platform }) {
         )}
       </div>
 
+      {platform.live && lcStats && totalQ && (
+        <div className="cp-progress-wrap">
+          <div className="cp-progress-bar">
+            <div
+              className="cp-progress-fill"
+              style={{ width: `${Math.round((lcStats.totalSolved / totalQ) * 100)}%`, background: platform.color }}
+            />
+          </div>
+          <div className="cp-progress-label" style={{ color: platform.color }}>
+            {Math.round((lcStats.totalSolved / totalQ) * 100)}% of {totalQ} problems
+          </div>
+        </div>
+      )}
     </a>
   );
 }
