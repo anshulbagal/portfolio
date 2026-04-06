@@ -130,7 +130,7 @@ function useLeetCodeStats(username) {
   const [stats, setStats] = useState(null);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("https://leetcode-stats-api.herokuapp.com/" + username)
+    fetch("https://leetcode-api-faisalshohag.vercel.app/" + username)
       .then(r => r.json())
       .then(data => {
         if (data && data.totalSolved !== undefined) setStats(data);
