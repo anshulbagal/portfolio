@@ -83,7 +83,7 @@ const CP_PLATFORMS = [
       </svg>
     ),
     live: false,
-    extra: { label: "Status", value: "Newbie" },
+    extra: { label: "Status", value: "Newbie" },  
   },
 ];
 
@@ -362,7 +362,7 @@ export default function App() {
       </section>
 
       {/* DSA & CP */}
-      <div className="section-alt" id="dsa-&-cp">
+      <div className="section-alt" id="dsa-cp">
         <div className="section-alt-inner">
           <FadeUp>
             <div className="section-header">
