@@ -13,10 +13,11 @@ const SKILLS = [
 
 const PROJECTS = [
   { num: "Featured — 001", badge: "AIML · Featured", title: "VitalHealth Monitor", desc: "Multimodal deep learning app predicting stress, fatigue, dehydration & anemia from image, audio & physiological inputs using EfficientNetB0 transfer learning.", stack: ["Python", "TensorFlow", "EfficientNetB0", "React", "Node.js", "MongoDB"], link: "https://github.com/anshulbagal/Vital-Health", featured: true },
-  { num: "Featured — 002", badge: "Full Stack · Featured", title: "EggXpresss Food Ordering App", desc: "No need to stand in Queue or wait for waiter, order it directly from the app", stack: ["React", "Node.js", "MongoDB", "Express"], link: "https://github.com/anshulbagal/eggxpress", featured: true },
-  { num: "003", title: "Group Chat App", desc: "Group chat app like discord", stack: ["React", "Node", "MongoDB", "Express"], link: "https://github.com/anshulbagal/Group-chat-app" },
-  { num: "004", title: "Notes App", desc: "Notes app with AI featured summarization of notes", stack: ["Node", "React", "API", "MongoDB", "Express"], link: "https://github.com/anshulbagal/Notes-app" },
-  { num: "005", title: "Currency Converter", desc: "Simple Currency Converter App", stack: ["React", "Node", "Express"], link: "https://github.com/anshulbagal/Currency-converter" },
+  { num: "Featured — 002", badge: "GenAI · Featured", title: "NutriLens AI", desc: "Full-stack AI app that analyzes food label images using OCR, retrieves ingredient knowledge via a RAG pipeline, and uses an LLM for health scores, allergen detection, ingredient explanations, product comparisons & conversational AI chat.", stack: ["React", "FastAPI", "Python", "EasyOCR", "ChromaDB", "Groq API", "MongoDB Atlas", "LangChain", "JWT"], link: "https://github.com/anshulbagal/NutriLens-AI", featured: true },
+  { num: "Featured — 003", badge: "Full Stack · Featured", title: "EggXpresss Food Ordering App", desc: "No need to stand in Queue or wait for waiter, order it directly from the app", stack: ["React", "Node.js", "MongoDB", "Express"], link: "https://github.com/anshulbagal/eggxpress", featured: true },
+  { num: "004", title: "Group Chat App", desc: "Group chat app like discord", stack: ["React", "Node", "MongoDB", "Express"], link: "https://github.com/anshulbagal/Group-chat-app" },
+  { num: "005", title: "Notes App", desc: "Notes app with AI featured summarization of notes", stack: ["Node", "React", "API", "MongoDB", "Express"], link: "https://github.com/anshulbagal/Notes-app" },
+  { num: "006", title: "Currency Converter", desc: "Simple Currency Converter App", stack: ["React", "Node", "Express"], link: "https://github.com/anshulbagal/Currency-converter" },
 ];
 
 const CP_PLATFORMS = [
